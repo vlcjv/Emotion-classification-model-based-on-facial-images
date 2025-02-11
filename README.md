@@ -1,4 +1,4 @@
-## ** Description and purpose of the project **
+## Description and purpose of the project
 
 Emotion classification model based on facial images. The aim of the project is to create a model that will be based on training sets classified emotions recognized in images of a human face. So, model
 will automatically recognize emotions based on facial images using the use of convolutional neural networks (CNN). These networks will analyze such characteristics such as the arrangement of the eyes,
@@ -13,7 +13,7 @@ eyebrows or mouth in order to classify facial expressions.Each of the expression
 Each category can be seen in the attachment below, which presents the separated emotions a set of images in the train set – used to train the model. The submitted images are formatted to 48x48 grayscale pixels,
 which is intended focusing the model on key expressive features without color distortion or background.
 
-## ** Metodology **
+## Metodology 
 
 ## Model Architecture Selection
 
@@ -45,4 +45,4 @@ possible class. In this model, it is an appropriate solution for obtaining proba
 
 The FER2013 (Facial Expression Recognition 2013) dataset from Kaggle.com was used to train the model. This dataset is widely utilized for emotion classification tasks. It consists of grayscale images with a
 resolution of 48x48 pixels. The images depict faces with various expressions, recorded in a way that ensures the face is centered and occupies a similar area in each image. The training set comprises 28,709 examples, 
-while the public test set includes 3,589 examples. ([Kaggle Dataset](https://www.kaggle.com/datasets/msambare/fer2013 )
+while the public test set includes 3,589 examples. ([Kaggle Dataset](https://www.kaggle.com/datasets/msambare/fer2013 ))
